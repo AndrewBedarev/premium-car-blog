@@ -1,0 +1,9 @@
+.card-marker {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    background-color: #4A90E2;
+    border-radius: 10%;
+    color: white;
+    padding: 4px 12px 2px;
+}

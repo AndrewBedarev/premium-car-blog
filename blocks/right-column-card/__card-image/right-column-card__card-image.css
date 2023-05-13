@@ -1,0 +1,4 @@
+.right-column-card__card-image {
+    object-fit: cover;
+    filter: brightness(70%);
+}

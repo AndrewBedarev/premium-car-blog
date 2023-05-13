@@ -1,0 +1,8 @@
+.header-container__logo-items {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}

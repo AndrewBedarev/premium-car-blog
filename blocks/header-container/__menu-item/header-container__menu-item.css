@@ -1,0 +1,15 @@
+.header-container__menu-item {
+    color: white;
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+}
+
+.header-container__menu-item:hover{
+    transition: .3s linear;
+    background-color:#4A90E2;
+    font-weight: 600;
+font-size: 20px;
+}
