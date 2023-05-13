@@ -37,5 +37,136 @@
 @import url(../blocks/right-column-card/__title/right-column-card__title.css);
 @import url(../blocks/right-column-card/__subtitle/right-column-card__subtitle.css);
 
+.article-card__marker-text {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
 
+.article-card__title {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 28px;
+margin: 0 0 15px;
+}
 
+.article-card__author {
+    font-family: 'PT Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+margin: 0 0 14px;
+}
+
+.article-card__article {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+margin: 0;
+}
+
+.article-card {
+    background-color: white;
+    width: 730px;
+    height:250px;
+    margin:0 auto;
+    position: relative;
+    bottom: 120px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+.arcticle-card__text {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 30px;
+}
+
+.left-section__card {
+margin-top: -100px;
+}
+
+.left-section__card:first-child {
+    margin-top: 0;
+}
+
+.right-section {
+    margin-left: 130px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.leon-hunt {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.leon-hunt__author {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.leon-hunt__profession {
+    font-family: 'PT Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+color: #999999;
+margin-top: 8px;
+}
+
+.leon-hunt__text {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #666666;
+margin-top: 14px;
+}
+
+.leon-hunt__button{
+    background: #232323;
+    border-radius: 5px;
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+width: 270px;
+height: 50px;
+margin-top: 20px;
+}
+
+.popular_posts__title {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+margin-top: 60px;
+}
