@@ -123,7 +123,6 @@ margin-top: -100px;
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
-    text-align: center;
     margin-top: 20px;
 }
 
@@ -133,7 +132,6 @@ font-style: italic;
 font-weight: 400;
 font-size: 14px;
 line-height: 18px;
-text-align: center;
 color: #999999;
 margin-top: 8px;
 }
@@ -149,17 +147,18 @@ margin-top: 14px;
 }
 
 .leon-hunt__button{
-    background: #232323;
+    background: gray;
     border-radius: 5px;
     font-family: 'PT Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 18px;
-color: #FFFFFF;
+color: black;
 width: 270px;
 height: 50px;
 margin-top: 20px;
+border: 1px solid;
 }
 
 .popular_posts__title {
@@ -169,4 +168,100 @@ font-weight: 700;
 font-size: 18px;
 line-height: 23px;
 margin-top: 60px;
+}
+
+.popular-posts{
+    padding-left: 0;
+    margin: 20px 0 0 0;
+    list-style: none;
+    position: relative;
+}
+
+.popular-posts__text {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+margin: 20px 0 10px 0;
+}
+
+.popular-posts__author {
+    font-family: 'PT Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #666666;
+}
+
+.popular-posts__marker-text {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
+
+.popular-posts-marker{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #4A90E2;
+    border-radius: 10%;
+    color: white;
+    padding: 4px 12px 2px;
+}
+
+.instagram-photoes {
+padding-left: 0;
+margin: 0;
+list-style: none;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.insta-title{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+margin: 60px 0 26px;
+}
+
+.insta-button {
+background: grey;
+border-radius: 3px;
+height: 50px;
+width: 270px;
+position: relative;
+display: flex;
+padding-left: 0;
+margin: 0;
+list-style: none;
+align-items: center;
+justify-content: center;
+border: 1px solid;
+}
+
+.insta-logo {
+width: 14px;
+height: 14px;
+}
+
+.insta-text {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+}
+
+.insta-test {
+width: 14px;
+height: 14px;
+margin-right: 10px;
 }
